@@ -1,0 +1,1 @@
+<p>Phylogenetic trees can be <b>(re)constructed</b> from multiple sequence alignments of genes, functional domains of proteins or even entire genomes!</p>
