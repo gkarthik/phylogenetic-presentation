@@ -1,4 +1,4 @@
-### Maximum Likelihood
+### Maximum Likelihood Estimation
 
 #### Likelihood
 Probability of observing data given the hypothesis.
