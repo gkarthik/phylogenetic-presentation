@@ -1,0 +1,7 @@
+digraph { 
+	a[label="Estimation of parameters\nin the tree."];
+	b[label="Searching tree space  to\nfind topology with highest likelihood."];
+	a -> b;	
+}
+
+	

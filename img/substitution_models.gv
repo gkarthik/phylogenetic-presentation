@@ -1,0 +1,11 @@
+digraph {
+	a[label="A"];
+	t[label="T"];
+	g[label="G"];
+	c[label="C"];
+	{rank=same;a,g}
+	{rank=same;c,t}
+	a -> {g; c; t;}[dir="both", minlen=3];	
+	g -> {c; t;}[dir="both", minlen=3];	
+	c -> t[dir="both", minlen=3];
+}
