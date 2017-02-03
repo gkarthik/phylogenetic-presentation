@@ -3,8 +3,8 @@ Algorithmic
 * UPGMA 
 * Neighbour Joining
 
-Optimaility<b>*</b>
+Optimaility
 
-+ Maximum Parsimony 
-+ Maximum Likelihood 
-+ Bayesian
++ Maximum Parsimony
++ Maximum Likelihood<b>*</b> 
++ Bayesian Inference<b>*</b>
