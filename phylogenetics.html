@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<!-- saved from url=(0034)http://localhost:8000/?print-pdf#/ -->
+<html class=" js no-mobile desktop no-ie chrome chrome55 root-section gradient rgba opacity textshadow multiplebgs boxshadow borderimage borderradius cssreflections csstransforms csstransitions no-touch retina fontface domloaded gr__localhost w-1436 gt-240 gt-320 gt-480 gt-640 gt-768 gt-800 gt-1024 gt-1280 lt-1440 lt-1680 lt-1920 no-portrait landscape" id="index-page"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>reveal.js</title>
+
+		<link rel="stylesheet" href="./phylogenetics_files/reveal.css">
+		<link rel="stylesheet" href="./phylogenetics_files/sky.css">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="./phylogenetics_files/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script><link rel="stylesheet" type="text/css" href="./phylogenetics_files/pdf.css"><script type="text/javascript" src="./phylogenetics_files/marked.js"></script><script type="text/javascript" src="./phylogenetics_files/markdown.js"></script><script type="text/javascript" src="./phylogenetics_files/notes.js"></script><script type="text/javascript" src="./phylogenetics_files/highlight.js"></script>
+	<style type="text/css">@page{size:998px 728px; margin: 0 0 -1px 0;}</style><style type="text/css">.reveal section>img, .reveal section>video, .reveal section>iframe{max-width: 960px; max-height:700px}</style></head>
+	<body data-gr-c-s-loaded="true" class="print-pdf" style="width: 998px; height: 728px;">
+		<div class="reveal slide center ready" role="application" data-transition-speed="default" data-background-transition="fade">
+			<div class="slides">
+			  <div class="pdf-page" style="height: 728px;"><div class="slide-background present" data-loaded="true" style="display: block;"></div><section data-charset="iso-8859-15" data-markdown="" data-markdown-parsed="true" class="present" style="display: block; left: 19px; top: 317px; width: 960px;" data-index-h="0"><h3 id="phylogenetics">Phylogenetics</h3>
+</section></div>
+			  <div class="pdf-page" style="height: 728px;"><div class="slide-background future" data-loaded="true" style="display: block;"></div><section data-charset="iso-8859-15" data-markdown="" data-markdown-parsed="true" hidden="" aria-hidden="true" class="present" style="display: block; left: 19px; top: 44px; width: 960px;" data-index-h="1"><h3 id="introduction">Introduction</h3>
+<p>A phylogenetic tree describes evolutionary history.</p>
+<p><img src="./phylogenetics_files/intro.png" width="500"></p>
+</section></div>
+			  <div class="pdf-page" style="height: 728px;"><div class="slide-background future" data-loaded="true" style="display: block;"></div><section data-charset="iso-8859-15" data-markdown="" data-markdown-parsed="true" hidden="" aria-hidden="true" class="present" style="display: block; left: 19px; top: 276px; width: 960px;" data-index-h="2"><p>Phylogenetic trees can be <b>(re)constructed</b> from multiple sequence alignments of genes, functional domains of proteins or even entire genomes!</p></section></div>
+			  <div class="pdf-page" style="height: 728px;"><div class="slide-background future" data-loaded="true" style="display: block;"></div><section data-charset="iso-8859-15" data-markdown="" data-markdown-parsed="true" hidden="" aria-hidden="true" class="present" style="display: block; left: 19px; top: 96.5px; width: 960px;" data-index-h="3"><h3 id="rooted-and-unrooted-trees">Rooted and Unrooted trees</h3>
+<p><img src="./phylogenetics_files/unroot.png" height="300"></p>
+<p><a href="http://www.nature.com/nrg/journal/v13/n5/full/nrg3186.html" target="_blank">Yang et al. 2012</a></p>
+</section></div>			  
+			  <div class="pdf-page" style="height: 728px;"><div class="slide-background future" data-loaded="true" style="display: block;"></div><section data-charset="iso-8859-15" data-markdown="" data-markdown-parsed="true" hidden="" aria-hidden="true" class="present" style="display: block; left: 19px; top: 150.5px; width: 960px;" data-index-h="4"><p>Algorithmic</p>
+<ul>
+<li>UPGMA </li>
+<li>Neighbour Joining</li>
+</ul>
+<p>Optimaility</p>
+<ul>
+<li>Maximum Parsimony</li>
+<li>Maximum Likelihood<b>*</b> </li>
+<li>Bayesian Inference<b>*</b></li>
+</ul>
+</section></div>
+			  <section data-charset="iso-8859-15" hidden="" aria-hidden="true" class="stack present" style="display: block;" data-index-h="5"><div class="pdf-page" style="height: 728px;"><div class="slide-background present" data-loaded="true" style="display: block;"></div><section data-markdown="" data-markdown-parsed="true" class="present" style="display: block; left: 19px; top: 173px; width: 960px;" data-index-h="5" data-index-v="0"><h3 id="maximum-parsimony">Maximum Parsimony</h3>
+<p><a href="https://en.wikipedia.org/wiki/Occam%27s_razor" target="_blank">Occam's razor</a></p>
+<p>Not very accurate.</p>
+<p>Tends to move towards the wrong tree.</p>
+<p>Suffers from long branch attraction.</p>
+</section></div><div class="pdf-page" style="height: 728px;"><div class="slide-background future" data-loaded="true" style="display: block;"></div><section data-markdown="" data-markdown-parsed="true" class="present" aria-hidden="true" hidden="" style="display: block; left: 19px; top: 31.5px; width: 960px;" data-index-h="5" data-index-v="1"><p><img src="./phylogenetics_files/LongBranch.png" height="400"></p>
+<p><a href="http://www.nature.com/nrg/journal/v13/n5/full/nrg3186.html#B23" target="_blank">Yang et al. 2012</a></p>
+<p>Branches that are far apart tend to be grouped together incorrectly.</p>
+</section></div></section>			  
+			  <div class="pdf-page" style="height: 728px;"><div class="slide-background future" data-loaded="true" style="display: block;"></div><section data-charset="iso-8859-15" data-markdown="" data-markdown-parsed="true" hidden="" aria-hidden="true" class="present" style="display: block; left: 19px; top: 193px; width: 960px;" data-index-h="6"><h3 id="markov-chain">Markov Chain</h3>
+<p>A Markov chain is a type of Markov process in which the next value of a state depends only on the present state of the system.</p>
+<p>They are of two types, discrete and continuous. </p>
+</section></div>			  
+			  <div class="pdf-page" style="height: 728px;"><div class="slide-background future" data-loaded="true" style="display: block;"></div><section data-charset="iso-8859-15" data-markdown="" data-markdown-parsed="true" hidden="" aria-hidden="true" class="present" style="display: block; left: 19px; top: 86.5px; width: 960px;" data-index-h="7"><h3 id="continuous-time-markov-chain">Continuous Time Markov Chain</h3>
+<p>In a CTMC, the state can have values at any point in time unlike discrete time markov chains. </p>
+<p><img src="./phylogenetics_files/markov_chain.png"></p>
+<p>Q is the substitution rate matrix.</p>
+<p>P is the matrix of transition probabilities.</p>
+</section></div>
+			  <div class="pdf-page" style="height: 728px;"><div class="slide-background future" data-loaded="true" style="display: block;"></div><section data-charset="iso-8859-15" data-markdown="" data-markdown-parsed="true" hidden="" aria-hidden="true" class="present" style="display: block; left: 19px; top: 156px; width: 960px;" data-index-h="8"><h3 id="nucleotide-substitution-models">Nucleotide Substitution Models</h3>
+<p><img src="./phylogenetics_files/substitution_models.png"></p>
+</section></div>
+			  <div class="pdf-page" style="height: 728px;"><div class="slide-background future" data-loaded="true" style="display: block;"></div><section data-charset="iso-8859-15" data-markdown="" data-markdown-parsed="true" hidden="" aria-hidden="true" class="present" style="display: block; left: 19px; top: 46.5px; width: 960px;" data-index-h="9"><h3 id="jukes-and-cantor-1969">Jukes and Cantor 1969</h3>
+<p><img src="./phylogenetics_files/jc.png" height="400"></p>
+<p>PS: Other models exist such as HKY, GTR.</p>
+</section></div>			  			  
+			  <div class="pdf-page" style="height: 728px;"><div class="slide-background future" data-loaded="true" style="display: block;"></div><section data-charset="iso-8859-15" data-markdown="" data-markdown-parsed="true" hidden="" aria-hidden="true" class="present" style="display: block; left: 19px; top: 51.5px; width: 960px;" data-index-h="10"><h3 id="maximum-likelihood-estimation">Maximum Likelihood Estimation</h3>
+<h4 id="likelihood">Likelihood</h4>
+<p>Probability of observing data given the hypothesis.</p>
+<p><img src="./phylogenetics_files/mle.png"></p>
+</section></div>
+			  <div class="pdf-page" style="height: 728px;"><div class="slide-background future" data-loaded="true" style="display: block;"></div><section data-charset="iso-8859-15" data-markdown="" data-markdown-parsed="true" hidden="" aria-hidden="true" class="present" style="display: block; left: 19px; top: 23px; width: 960px;" data-index-h="11"><h3 id="likelihood-of-hht-">Likelihood of 'HHT'</h3>
+<p><img src="./phylogenetics_files/likelihood_coin.png" height="400"></p>
+<p><img src="./phylogenetics_files/mle_coins.png" height="50"></p>
+</section></div>
+
+			  <div class="pdf-page" style="height: 728px;"><div class="slide-background future" data-loaded="true" style="display: block;"></div><section data-charset="iso-8859-15" data-markdown="" data-markdown-parsed="true" hidden="" aria-hidden="true" class="present" style="display: block; left: 19px; top: 148.5px; width: 960px;" data-index-h="12"><h3 id="using-ml-for-phylogenetic-reconstruction">Using ML for phylogenetic reconstruction</h3>
+<p><img src="./phylogenetics_files/mle_steps.png"></p>
+</section></div>
+			  <div class="pdf-page" style="height: 728px;"><div class="slide-background future" data-loaded="true" style="display: block;"></div><section data-charset="iso-8859-15" data-markdown="" data-markdown-parsed="true" hidden="" aria-hidden="true" class="present" style="display: block; left: 19px; top: 82.5px; width: 960px;" data-index-h="13"><h2 id="bayesian-inference">Bayesian inference</h2>
+<p>Discrete<br>
+<img src="./phylogenetics_files/bayesian_discrete.png" height="100"></p>
+<p>Continuous<br>
+<img src="./phylogenetics_files/bayesian_continuous.png" height="100"></p>
+</section></div>
+			  <div class="pdf-page" style="height: 728px;"><div class="slide-background future" data-loaded="true" style="display: block;"></div><section data-charset="iso-8859-15" data-markdown="" data-markdown-parsed="true" hidden="" aria-hidden="true" class="present" style="display: block; left: 19px; top: 165px; width: 960px;" data-index-h="14"><p><img src="./phylogenetics_files/bayesian_continuous.png" height="100"></p>
+<table>
+<tbody><tr>
+<td>
+<center>Posterior</center>
+</td>
+<td>
+<center>Prior</center>
+</td>
+<td>
+<center>Likelihood</center>
+</td>
+</tr>
+<tr>
+<td>
+<img src="./phylogenetics_files/posterior.png" height="100">
+</td>
+<td>
+<img src="./phylogenetics_files/prior.png">
+</td>
+<td>
+<img src="./phylogenetics_files/likelihood.png">
+</td>
+</tr>
+</tbody></table>
+</section></div>
+			  <div class="pdf-page" style="height: 728px;"><div class="slide-background future" data-loaded="true" style="display: block;"></div><section data-charset="iso-8859-15" data-markdown="" data-markdown-parsed="true" hidden="" aria-hidden="true" class="present" style="display: block; left: 19px; top: 156px; width: 960px;" data-index-h="15"><h3 id="neutral-theory-of-molecular-evolution">Neutral theory of molecular evolution</h3>
+<p>The theory holds that most evolutionary changes occur due to genetic drift i.e. random sampling of an allele rather than natural selection.</p>
+<p>Introduced by Motoo Kimura. </p>
+</section></div>
+			  <section data-charset="iso-8859-15" hidden="" aria-hidden="true" class="stack present" style="display: block;" data-index-h="16"><div class="pdf-page" style="height: 728px;"><div class="slide-background present" data-loaded="true" style="display: block;"></div><section data-markdown="" data-markdown-parsed="true" hidden="" aria-hidden="true" class="present" style="display: block; left: 19px; top: 131px; width: 960px;" data-index-h="16" data-index-v="0"><h3 id="molecular-clock">Molecular clock</h3>
+<p>It is a technique that uses mutation rates to deduce time of divergence.</p>
+<p>Assumes that mutations occur in a clock-like manner.</p>
+<p>It was introduced by Emile Zuckerkandl and Linus Pauling. Backed by neutral theory of evolution. 
+Can be used to root trees!</p>
+</section></div><div class="pdf-page" style="height: 728px;"><div class="slide-background future" data-loaded="true" style="display: block;"></div><section data-markdown="" data-markdown-parsed="true" class="present" aria-hidden="true" hidden="" style="display: block; left: 19px; top: 116.5px; width: 960px;" data-index-h="16" data-index-v="1"><p><img src="./phylogenetics_files/ebola_molecular_clock.png" width="400"></p>
+<p><a href="http://science.sciencemag.org/content/345/6202/1369.full" target="_blank">Gire et al. 2014</a></p>
+</section></div></section>			  
+			  <div class="pdf-page" style="height: 728px;"><div class="slide-background future" data-loaded="true" style="display: block;"></div><section data-charset="iso-8859-15" data-markdown="" data-markdown-parsed="true" hidden="" aria-hidden="true" class="present" style="display: block; left: 19px; top: 164.5px; width: 960px;" data-index-h="17"><h3 id="incorporating-molecular-clock-into-bayesian-inference">Incorporating molecular clock into Bayesian Inference</h3>
+<p><img src="./phylogenetics_files/bayesian_priors.png"></p>
+</section></div>			  			  
+			  <div class="pdf-page" style="height: 728px;"><div class="slide-background future" data-loaded="true" style="display: block;"></div><section data-charset="iso-8859-15" data-markdown="" data-markdown-parsed="true" hidden="" aria-hidden="true" class="present" style="display: block; left: 19px; top: 40.5px; width: 960px;" data-index-h="18"><h3 id="wright-fisher-process">Wright Fisher Process</h3>
+<p><img src="./phylogenetics_files/wright_fisher_process.png"></p>
+</section></div>
+			  <section data-charset="iso-8859-15" hidden="" aria-hidden="true" class="stack present" style="display: block;" data-index-h="19"><div class="pdf-page" style="height: 728px;"><div class="slide-background present" data-loaded="true" style="display: block;"></div><section data-markdown="" data-markdown-parsed="true" hidden="" aria-hidden="true" class="present" style="display: block; left: 19px; top: 20.5px; width: 960px;" data-index-h="19" data-index-v="0"><h3 id="time-to-most-recent-common-ancestor">Time to Most Recent Common Ancestor</h3>
+<p><img src="./phylogenetics_files/wright_fisher.png" height="450"></p>
+</section></div><div class="pdf-page" style="height: 728px;"><div class="slide-background future" data-loaded="true" style="display: block;"></div><section data-markdown="" data-markdown-parsed="true" class="present" aria-hidden="true" hidden="" style="display: block; left: 19px; top: 35.5px; width: 960px;" data-index-h="19" data-index-v="1"><h4 id="detailed-history-of-human-population-sizes-between-ten-thousand-and-a-million-years-ago">Detailed history of human population sizes between ten thousand and a million years ago</h4>
+<p><img src="./phylogenetics_files/human.png" height="400"></p>
+<p><a href="http://www.nature.com/nature/journal/v475/n7357/full/nature10231.html" target="_blank">Li et al. 2011</a></p>
+</section></div></section>
+			  <div class="pdf-page" style="height: 728px;"><div class="slide-background future" data-loaded="true" style="display: block;"></div><section data-charset="iso-8859-15" data-markdown="" data-markdown-parsed="true" hidden="" aria-hidden="true" class="present" style="display: block; left: 19px; top: 50.5px; width: 960px;" data-index-h="20"><h3 id="bayesian-skyline-plot">Bayesian Skyline Plot</h3>
+<p><img src="./phylogenetics_files/skyline.gif"></p>
+<p><a href="https://academic.oup.com/mbe/article/22/5/1185/1066885/Bayesian-Coalescent-Inference-of-Past-Population" target="_blank">Drummond et al. 2005</a></p>
+</section></div>
+			  <div class="pdf-page" style="height: 728px;"><div class="slide-background future" data-loaded="true" style="display: block;"></div><section data-charset="iso-8859-15" data-markdown="" data-markdown-parsed="true" hidden="" aria-hidden="true" class="present" style="display: block; left: 19px; top: 186.5px; width: 960px;" data-index-h="21"><h3 id="introducing-coalescence-into-bayesian-inference">Introducing Coalescence into Bayesian Inference</h3>
+<p><img src="./phylogenetics_files/bayesian_coalescence.png"></p>
+</section></div>
+			  <div class="pdf-page" style="height: 728px;"><div class="slide-background future" data-loaded="true" style="display: block;"></div><section data-charset="iso-8859-15" data-markdown="" data-markdown-parsed="true" hidden="" aria-hidden="true" class="present" style="display: block; left: 19px; top: 38.5px; width: 960px;" data-index-h="22"><h3 id="markov-chain-monte-carlo">Markov Chain Monte Carlo</h3>
+<p>A method to sample the posterior distribution using 'random steps'.</p>
+<p><img src="./phylogenetics_files/robotmcmc.png"></p>
+</section></div>
+			  <div class="pdf-page" style="height: 728px;"><div class="slide-background future" data-loaded="true" style="display: block;"></div><section data-charset="iso-8859-15" data-markdown="" data-markdown-parsed="true" hidden="" aria-hidden="true" class="present" style="display: block; left: 19px; top: 45.5px; width: 960px;" data-index-h="23"><h3 id="sketch-metropolis-hastings-mcmc-algorithm">Sketch Metropolis-Hastings MCMC algorithm</h3>
+<ol>
+<li>Start with a 'random tree' tree with topology 'T', substitution parameters 'mu' and coalescenct parameter 'lambda'.</li>
+<li>Propose a change to either of the 3 parameters.<ul>
+<li>Topology can be changed using NNI, SPR or TBR.</li>
+<li>Coalesence can be changed subjext to conditions.</li>
+</ul>
+</li>
+<li>If posterior probability is higher accept change. else, go to step 2.</li>
+</ol>
+</section></div>			  			  
+			</div>
+		<div class="backgrounds"><div class="slide-background stack future" data-loaded="true" style="display: block;"></div><div class="slide-background stack future" data-loaded="true" style="display: block;"></div><div class="slide-background stack future" data-loaded="true" style="display: block;"></div></div><div class="progress" style="display: block;"><span style="width: 0px;"></span></div><aside class="controls" style="display: block;"><button class="navigate-left" aria-label="previous slide" disabled="disabled"></button><button class="navigate-right enabled" aria-label="next slide"></button><button class="navigate-up" aria-label="above slide" disabled="disabled"></button><button class="navigate-down enabled" aria-label="below slide"></button></aside><div class="slide-number" style="display: none;"></div><div class="speaker-notes" data-prevent-swipe="" tabindex="0"></div><div class="pause-overlay"></div><div id="aria-status-div" aria-live="polite" aria-atomic="true" style="position: absolute; height: 1px; width: 1px; overflow: hidden; clip: rect(1px 1px 1px 1px);">Phylogenetics
+</div></div>
+
+		<script src="./phylogenetics_files/head.min.js"></script>
+		<script src="./phylogenetics_files/reveal.js"></script>
+
+		<script>
+			// More info https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				history: true,
+
+				// More info https://github.com/hakimel/reveal.js#dependencies
+				dependencies: [
+					{ src: 'plugin/markdown/marked.js' },
+					{ src: 'plugin/markdown/markdown.js' },
+					{ src: 'plugin/notes/notes.js', async: true },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+				]
+			});
+		</script>
+	<script src="./phylogenetics_files/livereload.js" async="" defer=""></script>
+
+</body><div></div></html>
